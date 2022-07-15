@@ -1,0 +1,24 @@
+.sp-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+    &__item {
+        margin: 0 12px;
+    }
+
+    &__link svg {
+        width: 50px;
+        height: 50px;
+        fill: #4a5557;
+        stroke: #bdcdd0;
+        stroke-width: 2px;
+        transition: all 0.2s;
+
+        &:hover {
+            fill: #263032;
+            transform: translate(10px, 5px);
+        }
+    }
+
+}

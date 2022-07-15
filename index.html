@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./scss/main.css">
+    <title>Lesson 19 Adaptive Graph</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./img/css_animation.jpg" alt="" class="logo__img">
+        </div>
+        <nav class="nav">
+            <input type="checkbox" class="nav__burger" id="nav-burger">
+            <label for="nav-burger" class="nav__burger-img">
+            </label>
+            <ul class="menu nav__menu">
+                <li class="menu__item">
+                    <a href="#" class="menu__link">About</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Portfolio</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Company</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Blog</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="menu__link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <h1 class="main__title">Website for Front-end Developer</h1>
+        <section class="section">
+            <h2 class="section__title">
+                <!-- <img src="./img/svg/facebook.svg" alt="" class="section__icon"> -->
+                Facebook
+                <!-- 1. Tag img -->
+
+            </h2>
+            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In vitae, quam tempore
+                nesciunt
+                perspiciatis atque commodi et voluptatum at delectus ad veritatis provident molestias? Aliquam quod,
+                minima veritatis pariatur necessitatibus similique dicta dignissimos culpa. Voluptatibus minus
+                distinctio corrupti natus ex asperiores, eum deserunt tempore tenetur? Sapiente ex temporibus
+                inventore
+                et, magni omnis, unde nam culpa quos nihil neque quaerat adipisci facere voluptatum amet aut sit
+                aspernatur. Voluptates praesentium dolorum perspiciatis, inventore illum eaque sunt quisquam ab
+                officia
+                facilis, impedit dolor.</p>
+            <div class="images">
+                <div class="images__item">
+                    <img src="./img/css_animation.jpg" alt="" class="images__img">
+                </div>
+                <div class="images__item">
+                    <img src="./img/flexbox.png" alt="" class="images__img">
+                </div>
+                <div class="images__item">
+                    <img src="./img/position_2.png" alt="" class="images__img">
+                </div>
+                <div class="images__item">
+                    <img src="./img/Scss.png" alt="" class="images__img">
+                </div>
+                <div class="images__item">
+                    <img src="./img/svg.jpg" alt="" class="images__img">
+                </div>
+            </div>
+            <button type="submit" class="btn">Get Started</button>
+        </section>
+        <section class="section">
+
+            <h2 class="section__title">
+                <!-- Через background -->
+                <!-- <div class="section__icon_inst"></div>  -->
+
+                Instagram
+            </h2>
+            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In vitae, quam tempore
+                nesciunt
+                perspiciatis atque commodi et voluptatum at delectus ad veritatis provident molestias? Aliquam quod,
+                minima veritatis pariatur necessitatibus similique dicta dignissimos culpa. Voluptatibus minus
+                distinctio corrupti natus ex asperiores, eum deserunt tempore tenetur? Sapiente ex temporibus
+                inventore
+                et, magni omnis, unde nam culpa quos nihil neque quaerat adipisci facere voluptatum amet aut sit
+                aspernatur. Voluptates praesentium dolorum perspiciatis, inventore illum eaque sunt quisquam ab
+                officia
+                facilis, impedit dolor.</p>
+            <button type="submit" class="btn">Get Started</button>
+        </section>
+        <section class="section">
+            <h2 class="section__title">
+                <!-- <svg width="43" height="42" viewBox="0 0 43 42" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-svg">
+                        <rect x="1.49329" y="0.5" width="41" height="41" fill="white" class="layer_1"/>
+                        <path d="M29.9374 16.9264C29.9501 17.104 29.9501 17.2817 29.9501 17.4594C29.9501 22.8781 25.8258 29.1218 18.2877 29.1218C15.9654 29.1218 13.808 28.4492 11.9933 27.2817C12.3232 27.3198 12.6405 27.3325 12.9831 27.3325C14.8993 27.3325 16.6633 26.6853 18.072 25.5812C16.2699 25.5431 14.7598 24.363 14.2395 22.7386C14.4933 22.7766 14.7471 22.802 15.0136 22.802C15.3816 22.802 15.7497 22.7512 16.0923 22.6624C14.2141 22.2817 12.8054 20.632 12.8054 18.6396V18.5889C13.3511 18.8934 13.9857 19.0838 14.6582 19.1091C13.5541 18.3731 12.8308 17.1167 12.8308 15.6954C12.8308 14.934 13.0338 14.236 13.3892 13.6269C15.407 16.1142 18.44 17.7385 21.8409 17.9162C21.7775 17.6117 21.7394 17.2944 21.7394 16.9772C21.7394 14.7183 23.5668 12.8782 25.8384 12.8782C27.0186 12.8782 28.0846 13.3731 28.8333 14.1726C29.7597 13.9949 30.648 13.6523 31.4348 13.1828C31.1302 14.1346 30.4831 14.934 29.6328 15.4416C30.4577 15.3528 31.2572 15.1244 31.9932 14.8071C31.4349 15.6193 30.7369 16.3426 29.9374 16.9264Z" fill="#18B5DC"/>
+                        <rect x="1.49329" y="0.5" width="41" height="41" stroke="#18B5DC" class="layer_2"/>
+                        </svg> -->
+
+
+                Youtube
+            </h2>
+            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In vitae, quam tempore
+                nesciunt
+                perspiciatis atque commodi et voluptatum at delectus ad veritatis provident molestias? Aliquam quod,
+                minima veritatis pariatur necessitatibus similique dicta dignissimos culpa. Voluptatibus minus
+                distinctio corrupti natus ex asperiores, eum deserunt tempore tenetur? Sapiente ex temporibus
+                inventore
+                et, magni omnis, unde nam culpa quos nihil neque quaerat adipisci facere voluptatum amet aut sit
+                aspernatur. Voluptates praesentium dolorum perspiciatis, inventore illum eaque sunt quisquam ab
+                officia
+                facilis, impedit dolor.</p>
+            <button type="submit" class="btn">Get Started</button>
+        </section>
+        <section class="section">
+            <h2 class="section__title">
+                <!-- <picture>
+                        <source srcset="./img/svg/facebook.svg">
+                        <img src="./img/svg/facebook.png" alt="">
+                    </picture> -->
+                Youtube
+            </h2>
+            <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. In vitae, quam tempore
+                nesciunt
+                perspiciatis atque commodi et voluptatum at delectus ad veritatis provident molestias? Aliquam quod,
+                minima veritatis pariatur necessitatibus similique dicta dignissimos culpa. Voluptatibus minus
+                distinctio corrupti natus ex asperiores, eum deserunt tempore tenetur? Sapiente ex temporibus
+                inventore
+                et, magni omnis, unde nam culpa quos nihil neque quaerat adipisci facere voluptatum amet aut sit
+                aspernatur. Voluptates praesentium dolorum perspiciatis, inventore illum eaque sunt quisquam ab
+                officia
+                facilis, impedit dolor.</p>
+            <button type="submit" class="btn">Get Started</button>
+        </section>
+        <section class="half">
+            <div class="half__side half__side_light side">
+                <h2>Left Side</h2>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam quaerat repellat
+                    perspiciatis dolorem voluptatum voluptatem quibusdam. Harum, mollitia voluptate. Distinctio eaque,
+                    tempore ullam modi nisi veniam, repudiandae vel repellat dolor sint quidem quasi, ad cumque eos
+                    aspernatur obcaecati sunt. Ipsum sit aliquam provident voluptatibus sunt ullam ut, fugiat ducimus
+                    iure! Hic ad delectus facilis rerum officiis consectetur? Alias doloremque, minus sed corporis sint
+                    architecto vel molestias quisquam facilis? Maiores repellendus voluptate distinctio cum minima
+                    illum, expedita earum corporis! Amet provident et temporibus non unde vero, aspernatur magnam
+                    accusantium ad veniam saepe, libero molestiae reprehenderit dolorem laborum rerum molestias
+                    voluptatibus eius.</p>
+            </div>
+            <div class="half__side half__side_dark side">
+                <h2>Right Side</h2>
+                <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam quaerat repellat
+                    perspiciatis dolorem voluptatum voluptatem quibusdam. Harum, mollitia voluptate. Distinctio eaque,
+                    tempore ullam modi nisi veniam, repudiandae vel repellat dolor sint quidem quasi, ad cumque eos
+                    aspernatur obcaecati sunt. Ipsum sit aliquam provident voluptatibus sunt ullam ut, fugiat ducimus
+                    iure! Hic ad delectus facilis rerum officiis consectetur? Alias doloremque, minus sed corporis sint
+                    architecto vel molestias quisquam facilis? Maiores repellendus voluptate distinctio cum minima
+                    illum, expedita earum corporis! Amet provident et temporibus non unde vero, aspernatur magnam
+                    accusantium ad veniam saepe, libero molestiae reprehenderit dolorem laborum rerum molestias
+                    voluptatibus eius.</p>
+            </div>
+        </section>
+        <section class="section section_graphic">
+            <img src="./img/main_bg.png" alt="" srcset="./img/main_bg@2.png 2x, ./img/main_bg@3.png 3x">
+
+            <!-- <picture>
+                <source media="(max-resolution: 1dppx)" srcset="./img/main_bg.png">
+                <source media="(max-resolution: 2dppx)" srcset="./img/main_bg@2.png">
+                <source media="(max-resolution: 3dppx)" srcset="./img/main_bg@3.png">
+                <img src="./img/main_bg.png" alt="">
+            </picture> -->
+        </section>
+    </main>
+    <footer class="footer"></footer>
+</body>
+
+</html>

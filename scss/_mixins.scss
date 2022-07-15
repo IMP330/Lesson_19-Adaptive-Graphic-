@@ -1,0 +1,11 @@
+@mixin flexBox($flex, $justify, $align, $wrap) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-wrap: $wrap;
+}
+
+@mixin fontSize() {
+    font-size: 16px;
+    line-height: 1.2;
+}

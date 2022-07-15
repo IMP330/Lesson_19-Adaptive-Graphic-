@@ -1,0 +1,17 @@
+.section {
+    &_graphic {
+        // background: url(../img/main_bg.png) no-repeat center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 70vh;
+
+        // @media  screen and (min-resolution: 2dppx) {
+        //     background: url(../img/main_bg@3.png) no-repeat center;
+        // }
+
+        // @media  screen and (-webkit-device-pixel-ration: 3dppx) {
+        //     background: url(../img/main_bg@2.png) no-repeat center;
+        // }
+    }
+}
